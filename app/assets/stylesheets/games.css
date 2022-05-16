@@ -1,0 +1,21 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.letters-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.individual-letter {
+  position: relative;
+  text-align: center;
+  background: blue;
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
